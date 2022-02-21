@@ -94,7 +94,7 @@ class OnnxModel(PreTrainedModel):
           results = results[0]
 
         results = torch.from_numpy(np.array(results))
-        print("results :", results.shape, results)
+        #print("results :", results.shape, results)
         return results
 
     def parse(self, inputs):
