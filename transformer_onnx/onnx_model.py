@@ -1,6 +1,10 @@
 from transformers import AutoModel, AutoModelForQuestionAnswering, AutoModelForSequenceClassification
 from transformers.models.auto.tokenization_auto import TOKENIZER_MAPPING
 
+"""
+Inspired by: https://github.com/neuml/txtai/blob/master/src/python/txtai/models/onnx.py
+"""
+
 # Conditional import
 try:
     import onnxruntime as ort
