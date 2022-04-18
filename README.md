@@ -1,10 +1,10 @@
 # transformer_onnx
 
-`transformer_onnx` is a simple package which can use inside transformers pipeline.
+`transformers_onnx` is a simple package which can use inside transformers pipeline.
 
 # Install
 
-    pip install transformer_onnx
+    pip install transformers_onnx
 
 # Convert model into Onnx format
 
@@ -20,7 +20,7 @@
     #for token-classification
     python -m transformers.onnx --feature "token-classification" -m dslim/bert-base-NER ./ner/
     
-# Use transformer_onnx to run transformers pipeline
+# Use transformers_onnx to run transformers pipeline
 
 ## Question Answering
 
