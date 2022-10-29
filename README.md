@@ -2,6 +2,8 @@
 
 `transformers_onnx` is a simple package which can use inside transformers pipeline.
 
+[![Downloads](https://pepy.tech/badge/transformers-onnx)](https://pepy.tech/project/transformers-onnx)
+
 # Install
 
     pip install transformers_onnx
